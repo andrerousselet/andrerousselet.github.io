@@ -1,0 +1,29 @@
+#minha-foto {
+  border-radius: 100px;
+}
+
+body {
+  background-color: #01161e;
+  color: #eff6e0;
+  font-weight: 600;
+}
+
+p {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 20px;
+}
+
+#main-title {
+  font-family: "Source Sans Pro", monospace;
+  font-size: 40px;
+}
+
+.titles {
+  font-family: "Source Sans Pro", monospace;
+  font-size: 30px;
+}
+
+.dev-logo {
+  width: 35px;
+  vertical-align: bottom;
+}
