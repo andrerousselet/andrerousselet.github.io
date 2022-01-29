@@ -5,25 +5,48 @@
 body {
   background-color: #01161e;
   color: #eff6e0;
-  font-weight: 600;
 }
 
-p {
+p,
+a,
+li {
   font-family: "Source Sans Pro", sans-serif;
   font-size: 20px;
 }
 
-#main-title {
-  font-family: "Source Sans Pro", monospace;
+.main-title {
+  font-family: "Source Code Pro", monospace;
   font-size: 40px;
 }
 
+.minha-foto {
+  border-radius: 100%;
+}
+
 .titles {
-  font-family: "Source Sans Pro", monospace;
+  font-family: "Source Code Pro", monospace;
   font-size: 30px;
 }
 
-.dev-logo {
-  width: 35px;
-  vertical-align: bottom;
+#skills {
+  list-style-type: none;
+  line-height: 30px;
+}
+
+.html {
+  font-size: 20px;
+}
+
+.css {
+  font-size: 13px;
+}
+
+.javascript {
+  font-size: 28px;
+}
+
+#blog {
+  margin-bottom: 25px;
+  text-decoration: none;
+  color: #eff6e0;
 }
