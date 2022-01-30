@@ -71,8 +71,11 @@ li {
   margin-bottom: 15px;
 }
 
+#skills-container {
+  text-align: center;
+}
+
 #skills {
-  list-style-type: none;
   line-height: 40px;
 }
 
