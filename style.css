@@ -1,5 +1,6 @@
-#minha-foto {
-  border-radius: 100px;
+* {
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -11,21 +12,63 @@ p,
 a,
 li {
   font-family: "Source Sans Pro", sans-serif;
-  font-size: 20px;
+  font-size: 18px;
 }
 
-.main-title {
+#header {
+  padding: 10px;
+  width: 90%;
+  margin: auto;
+}
+
+#main-title {
   font-family: "Source Code Pro", monospace;
   font-size: 40px;
+  text-align: center;
+}
+
+#header-content {
+  padding: 5px;
+  width: 70%;
+  margin: auto;
+  margin-top: 15px;
+  text-align: center;
+}
+
+#image-container {
+  border-radius: 100%;
+  display: inline-block;
+  width: 210px;
+  height: 210px;
+  background-color: #124559;
+  border: 1px solid #598392;
+  vertical-align: top;
+}
+
+#description-container {
+  display: inline-block;
+  height: 210px;
+  width: 420px;
 }
 
 .minha-foto {
   border-radius: 100%;
+  padding: 5px;
+  width: 200px;
+  text-align: center;
+}
+
+.description {
+  width: 95%;
+  margin: auto;
+  margin-top: 30px;
 }
 
 .titles {
   font-family: "Source Code Pro", monospace;
   font-size: 30px;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 #skills {
