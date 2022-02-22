@@ -1,4 +1,4 @@
-* {
+/* * {
   margin: 0;
   padding: 0;
 }
@@ -25,11 +25,11 @@ section.header-titles {
   text-align: center;
 }
 
-#header-title {
+.main-title {
   font-size: 40px;
 }
 
-#header-subtitle {
+.header-subtitle {
   font-size: 25px;
 }
 
@@ -176,4 +176,30 @@ li {
   margin-bottom: 25px;
   text-decoration: none;
   color: #eff6e0;
+} */
+
+body {
+  background-color: #01161E;
+  color: #EFF6E0;
+}
+
+.container, .container-sm {
+  background-color: #124559;
+  border-radius: 5px;
+}
+
+h2.display-6 {
+  margin-bottom: 0;
+}
+
+img {
+  background-color: #AEC3B0;
+  max-width: 200px;
+  padding: 3px;
+  margin: 12px;
+}
+
+p.description {
+  max-width: 350px;
+  margin-bottom: 0;
 }
